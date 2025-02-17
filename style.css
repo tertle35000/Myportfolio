@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fixed navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Navigation bar buttons */
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Sidebar for changing portfolio */
+.sidebar {
+    position: fixed;
+    top: 20px;
+    left: -180px;
+    /* ซ่อน sidebar ไว้ */
+    height: 100%;
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    transition: left 0.3s ease;
+    /* การเลื่อนเข้าออกของ sidebar */
+    z-index: 998;
+
+}
+
+.sidebar:hover {
+    left: 0;
+    /* เลื่อนออกมาเมื่อ hover */
+}
+
+.sidebar a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.settings-button {
+    margin-top: 346px;
+    margin-left: 168px;
+    position: absolute;
+    background-color: #fffffff1;
+    /* สีพื้นหลังของปุ่ม */
+    border-radius: 5px;
+    /* ทำมุมกรอบมน */
+    transition: background-color 0.3s ease;
+    /* การเปลี่ยนสีพื้นหลังเมื่อ hover */
+    z-index: 999;
+    /* จัดลำดับความซ้อนให้สูงกว่า .sidebar */
+    text-decoration: none;
+    /* เอาการขีดเส้นใต้ของลิงก์ออก */
+    visibility: visible;
+
+}
+
+/* Main content */
+.main-content {
+    margin-left: 0px;
+    padding: 120px;
+    border-top-style: inset;
+    border-bottom-style: inset;
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 200px;
+    display: flex;
+    /* ใช้ flexbox */
+    justify-content: center;
+    /* จัดกลางในแนวนอน */
+    align-items: center;
+    /* จัดกลางในแนวตั้ง */
+    height: 40px;
+    /* ตั้งค่าความสูงให้ชัดเจนเพื่อให้จัดกลางในแนวตั้งได้ */
+    text-align: center;
+    /* จัดข้อความให้อยู่ตรงกลางในกรณีที่มีหลายบรรทัด */
+    z-index: 5;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    margin-top: 60px;
+    color: #000000;
+    /* สีของฟอนต์ */
+    font-weight: bold;
+    /* น้ำหนักฟอนต์ */
+}
+
+#title-content {
+    font-family: 'Roboto', sans-serif;
+    /* ฟอนต์ Roboto */
+    font-size: 26px;
+    /* ขนาดฟอนต์ */
+    font-weight: bold;
+    /* น้ำหนักฟอนต์ */
+    letter-spacing: 2px;
+    /* ระยะห่างระหว่างตัวอักษร */
+    background: linear-gradient(90deg, #333, #c0c0c0);
+    /* ไล่สีจากเข้มไปอ่อน */
+    -webkit-background-clip: text;
+    /* ใช้การไล่สีในข้อความ */
+    -webkit-text-fill-color: transparent;
+    /* ทำให้สีพื้นหลังของข้อความเป็นโปร่งใส */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* เพิ่มเงาให้ตัวอักษร */
+    margin: 0;
+    /* ระยะห่างด้านบนและล่าง */
+    z-index: 4;
+    /* จัดลำดับความซ้อน */
+    display: inline-block;
+    /* ให้ขนาดของ background clip ใช้ได้กับข้อความ */
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+p {
+    text-indent: 30px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.motto {
+    font-style: italic;
+    font-size: 1.2em;
+    color: #2c3e50;
+    margin-top: 20px;
+    border-top: 2px solid #e0e0e0;
+    padding-top: 15px;
+}
+
+/* Certificate show container */
+.certishow-container {
+    width: 80%;
+    /* Adjust to fit 80% of the viewport width */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 0;
+    /* Optional padding */
+    display: none;
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
+}
+
+.certishow-track {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns with equal width */
+    gap: 50px;
+    /* Space between images */
+}
+
+.certishow-track img {
+    width: 300px;
+    /* Make images fill their grid cell */
+    height: 300px;
+    /* Set fixed height */
+    display: block;
+    object-fit: cover;
+    /* Ensure images cover their grid cell */
+    margin: 50px auto;
+    /* Center the image */
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    overflow: hidden;
+    /* ซ่อนส่วนที่เลื่อนออกนอกกรอบ */
+    position: relative;
+    height: 300px;
+    /* ตั้งค่าความสูงตามที่ต้องการ */
+    z-index: 0;
+}
+
+/* Track สำหรับภาพเลื่อน */
+.slideshow-track {
+    display: flex;
+    width: max-content;
+    /* ทำให้ความกว้างของแทร็กปรับตามเนื้อหา */
+    animation: scroll 25s linear infinite;
+    /* เลื่อนอัตโนมัติ */
+}
+
+.slideshow-track img {
+    height: 300px;
+    /* ปรับขนาดตามที่ต้องการ */
+    flex-shrink: 0;
+    /* ทำให้ขนาดของภาพไม่หด */
+    display: flex;
+}
+
+/* Animation เลื่อนจากซ้ายไปขวา */
+@keyframes scroll {
+    0% {
+        transform: translateX(30%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Certificate show container */
+.contact-container {
+    width: 10%;
+    /* Adjust to fit 80% of the viewport width */
+
+    margin: 0 auto;
+    /* Center the container horizontally */
+    padding: 50px;
+    /* Optional padding */
+    display: flex;
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
+
+}
+
+.contactshow-track {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns with equal width */
+    gap: 50px;
+    /* Space between images */
+
+}
+
+.contactshow-track img {
+    width: 100px;
+    /* Make images fill their grid cell */
+    height: 100px;
+    /* Set fixed height */
+    display: block;
+    object-fit: cover;
+    /* Ensure images cover their grid cell */
+    margin: 20px auto;
+    /* Center the image */
+}
+
+.Mypicture img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    /* ครอบภาพให้เต็มพื้นที่โดยไม่บิดเบี้ยว */
+    border-radius: 10px;
+    /* มุมภาพมนเล็กน้อย */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* เพิ่มเงาให้ภาพ */
+    display: block;
+    margin: 50px auto;
+}
+
+.history {
+    margin: 100px auto;
+    width: 1000px;
+    height: 1000px;
+    border: 3px solid black;
+    /* เพิ่มกรอบสีดำขนาด 3px */
+    background-color: rgb(255, 236, 182);
+    display: flex;
+    text-indent: 30px;
+}
+
+.histo {
+    text-indent: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .history {
+        width: 800px;
+        height: auto;
+    }
+
+    .certishow-track {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 150px;
+    }
+
+    .title {
+        padding: 50px;
+        font-size: 1.5em;
+    }
+
+    .certishow-track img {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    #title-content {
+        font-size: 18px;
+    }
+
+    .main-content {
+        padding: 60px;
+    }
+
+    .Mypicture img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Hide the navbar on screens smaller than 576px */
+@media (max-width: 480px) {
+    .navbar {
+        top: -50px;
+        /* Move the navbar off-screen */
+        transition: top 0.3s ease;
+        /* Smooth transition for sliding effect */
+    }
+
+    /* Show the navbar when hovering near the top (within the first 50px) */
+    body:hover .navbar {
+        top: 0;
+        /* Bring the navbar back on hover */
+    }
+
+    .history {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #title-content {
+        font-size: 16px;
+    }
+
+    .sidebar {
+        width: 120px;
+    }
+
+    .main-content {
+        padding: 30px;
+    }
+}
