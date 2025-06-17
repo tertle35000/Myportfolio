@@ -1,0 +1,16 @@
+D:\MiniProject\MiniProject\bin\Debug\MiniProject.exe.config
+D:\MiniProject\MiniProject\bin\Debug\MiniProject.exe
+D:\MiniProject\MiniProject\bin\Debug\MiniProject.pdb
+D:\MiniProject\MiniProject\bin\Debug\AxInterop.ActUtlTypeLib.dll
+D:\MiniProject\MiniProject\bin\Debug\Interop.ActUtlTypeLib.dll
+D:\MiniProject\MiniProject\obj\Debug\MiniProject.csproj.AssemblyReference.cache
+D:\MiniProject\MiniProject\obj\Debug\MiniProject.Form1.resources
+D:\MiniProject\MiniProject\obj\Debug\MiniProject.Properties.Resources.resources
+D:\MiniProject\MiniProject\obj\Debug\MiniProject.csproj.GenerateResource.cache
+D:\MiniProject\MiniProject\obj\Debug\MiniProject.csproj.CoreCompileInputs.cache
+D:\MiniProject\MiniProject\obj\Debug\MiniProj.CA56B470.Up2Date
+D:\MiniProject\MiniProject\obj\Debug\MiniProject.exe
+D:\MiniProject\MiniProject\obj\Debug\MiniProject.pdb
+D:\MiniProject\MiniProject\obj\Debug\MiniProject.exe.config
+D:\MiniProject\MiniProject\obj\Debug\MiniProject.Form2.resources
+D:\MiniProject\MiniProject\bin\Debug\ConfigNo\LogicalNo.txt
