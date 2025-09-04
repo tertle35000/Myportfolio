@@ -1,0 +1,13 @@
+[Unit]
+Description=Communication Receiver UDP Script
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/Desktop/RPISocket/communication_receiver.py
+Restart=always
+User=pi
+StandardOutput=file:/home/pi/receiverlog.txt
+StandardError=file:/home/pi/receiverlog.txt
+
+[Install]
+WantedBy=multi-user.target
