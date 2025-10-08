@@ -1,0 +1,16 @@
+D:\Inspection\Conveiyor\Conveiyor\obj\Debug\Conveiyor.csproj.AssemblyReference.cache
+D:\Inspection\Conveiyor\Conveiyor\obj\Debug\Conveiyor.Form1.resources
+D:\Inspection\Conveiyor\Conveiyor\obj\Debug\Conveiyor.Properties.Resources.resources
+D:\Inspection\Conveiyor\Conveiyor\obj\Debug\Conveiyor.csproj.GenerateResource.cache
+D:\Inspection\Conveiyor\Conveiyor\obj\Debug\Conveiyor.csproj.CoreCompileInputs.cache
+D:\Inspection\Conveiyor\Conveiyor\bin\Debug\Conveiyor.exe.config
+D:\Inspection\Conveiyor\Conveiyor\bin\Debug\Conveiyor.exe
+D:\Inspection\Conveiyor\Conveiyor\bin\Debug\Conveiyor.pdb
+D:\Inspection\Conveiyor\Conveiyor\bin\Debug\Newtonsoft.Json.dll
+D:\Inspection\Conveiyor\Conveiyor\bin\Debug\Newtonsoft.Json.xml
+D:\Inspection\Conveiyor\Conveiyor\obj\Debug\Conveiyor.csproj.Up2Date
+D:\Inspection\Conveiyor\Conveiyor\obj\Debug\Conveiyor.exe
+D:\Inspection\Conveiyor\Conveiyor\obj\Debug\Conveiyor.pdb
+D:\Inspection\Conveiyor\Conveiyor\bin\Debug\App.config
+D:\Inspection\Conveiyor\Conveiyor\bin\Debug\AxInterop.ActUtlTypeLib.dll
+D:\Inspection\Conveiyor\Conveiyor\obj\Debug\Conveiyor.exe.config
