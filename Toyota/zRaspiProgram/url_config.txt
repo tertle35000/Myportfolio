@@ -1,0 +1,9 @@
+[
+	"running_id": "ABCDEFGH",
+	"send_datetime" : "2025-11-27 09:30:xxxx",
+	"sender_ip": "192.168.128.240",
+    "sender_port": "8001",
+    "command": "Url",
+    "arguments": "http://202.44.229.93:8018/TMT_BP/monitoring/group1",
+    "duration_seconds": null
+]

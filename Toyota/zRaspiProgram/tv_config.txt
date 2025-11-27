@@ -1,0 +1,9 @@
+[
+	"running_id": "ABCDEFGH",
+	"send_datetime" : "2025-11-27 09:30:xxxx",
+	"sender_ip": "192.168.128.240",
+    "sender_port": "8001",
+    "command": "display",
+    "arguments": "1",
+    "duration_seconds": null
+]
