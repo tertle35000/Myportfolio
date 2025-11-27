@@ -1,0 +1,33 @@
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipment Change.csproj.AssemblyReference.cache
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipment_Change.Form1.resources
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipment_Change.Properties.Resources.resources
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipment Change.csproj.GenerateResource.cache
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipment Change.csproj.CoreCompileInputs.cache
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\Equipment Change.exe.config
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\Equipment Change.exe
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\Equipment Change.pdb
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Buffers.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.IO.Pipelines.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Memory.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Numerics.Vectors.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Text.Encodings.Web.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Text.Json.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.ValueTuple.dll
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Buffers.xml
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.IO.Pipelines.xml
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Memory.xml
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Numerics.Vectors.xml
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Text.Encodings.Web.xml
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Text.Json.xml
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Toyota\Equipment Change\Equipment Change\bin\Debug\System.ValueTuple.xml
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipment Change.csproj.SuggestedBindingRedirects.cache
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipment Change.exe.config
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipmen.8F1FFB4D.Up2Date
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipment Change.exe
+D:\Toyota\Equipment Change\Equipment Change\obj\Debug\Equipment Change.pdb
